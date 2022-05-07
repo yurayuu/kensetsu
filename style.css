@@ -1,0 +1,260 @@
+body {
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* トップ */
+header {
+  background-image: url(img/top.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+
+
+
+h1 {
+  margin-top: 0px;
+}
+
+h1:hover {
+  opacity: 0.6;
+  transition: 0.6s;
+}
+
+.topnav {
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin: 0 auto;
+  padding-top: 30px;
+
+}
+
+.topnav a {
+  margin-right: 30px;
+}
+
+.topnav a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+.topnav a:visited {
+  color: #000;
+}
+
+.topnav a:hover {
+  opacity: 0.4;
+  transition: 0.6s;
+}
+
+header p {
+  font-size: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  text-align: center;
+}
+
+
+/* お知らせ */
+
+h2 {
+  text-align: center;
+  font-size: 38px;
+  margin-top: 80px;
+  font-weight: normal;
+
+}
+
+.oshirase {
+  display: block;
+  width: 700px;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.oshirase li {
+  font-size: 18px;
+  padding: 30px 40px 30px 0;
+  border-bottom: 1px solid #000;
+}
+
+.oshirase a:link {
+  text-decoration: none;
+}
+
+.oshirase a:visited {
+  color: black;
+}
+
+.oshirase a:hover {
+  opacity: 0.4;
+  transition: 0.6s;
+}
+
+span {
+  font-size: 0.5rem;
+  border: 1px solid black;
+  padding: 5px 5px;
+  margin: 0 20px;
+}
+
+/* 施工事例 */
+
+.flex {
+  
+  display: flex;
+  justify-content: center;
+}
+
+.house {
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+  padding-right: 40px;
+}
+
+.house h3 {
+  font-weight: normal;
+}
+
+.house p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.shousai:hover {
+  opacity: 0.4;
+  transition: 0.6s;
+}
+.building {
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+  padding-left: 40px;
+}
+
+.building h3 {
+  font-weight: normal;
+}
+
+.building p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+/* 施工実績一覧 */
+
+.ichiran {
+  margin-top: 50px;
+  
+}
+
+.ichiran>h2 {
+  font-size: 1.17rem;
+  font-weight: normal;
+  border: 1px solid black;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 5px 20px;
+}
+
+h2 a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+h2 a:visited {
+  color: #000;
+}
+
+h2 a:hover {
+  opacity: 0.4;
+  transition-duration: 0.3s;
+}
+
+.flex2 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex2 a {
+  width: calc(100% / 3);
+}
+/* .img {
+  width: 100vw;
+  height: auto;
+} */
+
+.flex2 img:hover {
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
+
+/* フッター */
+
+footer {
+  background-color: #000;
+}
+
+.footernav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+
+}
+
+.iconimg2 {
+  filter: brightness(500%);
+  opacity: 1.5;
+  transition-duration: 0.3s;
+  height: 40px;
+}
+
+.iconimg:hover {
+  opacity: 0.4;
+  transition-duration: 0.3s;
+}
+
+.lastnav a {
+  font-size: 18px;
+  color: white;
+  margin-right: 30px;
+
+}
+
+.lastnav a:link {
+  text-decoration: none;
+}
+
+.lastnav a:hover {
+opacity: 0.6;
+transition: 0.6s;
+}
+
+/* コピーライト */
+.last {
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 20px;
+}
